@@ -35,6 +35,12 @@
             <artifactId>spring-tx</artifactId>
         </dependency>
 
+        <!-- Spring Boot: starter para web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
         <!-- Testes -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
