@@ -1,0 +1,81 @@
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+bin/
+
+### NetBeans ###
+nb-configuration.xml
+nbactions.xml
+nbproject/
+
+### VS Code ###
+.vscode/
+
+### Spring Boot ###
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+**/bootstrap-local.properties
+**/bootstrap-dev.properties
+**/bootstrap-prod.properties
+**/logs/
+
+### PostgreSQL ###
+*.sql
+*.dump
+postgres-data/
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Project specific ###
+**/database.properties
+**/secret.properties
+**/flyway.conf
+**/.env
+**/.env.local
+**/.env.dev
+**/.env.prod
+
+### Target folders ###
+**/target/
+**/build/
+**/dist/
+**/out/
+
+### Logs ###
+**/logs/
+*.log
